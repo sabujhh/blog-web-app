@@ -1,0 +1,39 @@
+.cover{
+    background-image: url('/media/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.cover_blog{
+    background-image: url('/media/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cover_profile{
+    background-image: url('/media/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    height:100vh
+}
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0, 0.7);
+}
+.caption{
+    font-weight: 900;
+    Color:white;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+.page-footer{
+    color: azure;
+    background-color: rgba(0,0,0, 0.7);
+}
