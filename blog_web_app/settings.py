@@ -124,7 +124,7 @@ LOGIN_URL = 'users-login'
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = (BASE_DIR / 'asset')
+STATIC_ROOT = (BASE_DIR / 'staticfiles')
 
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
